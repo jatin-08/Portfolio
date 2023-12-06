@@ -1,4 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Nunito+Sans:opsz,wght@6..12,500&family=Roboto+Condensed&family=Ubuntu:wght@500&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-darkBlack-color);
+}
+
+:root {
+    --bg-darkBlack-color: #121216;
+    --bg-lightWhite-color: #e3faff;
+    --text-grey-color: #e5e5e5;
+    --text-yellow-color: #ffb703;
+    --text-darkBlue-color: #023047;
+    --text-lightblue-color: #B6C2E4;
+    --noto-sans-fonts: 'Noto Sans', sans-serif;
+    --roboto-condensed-fonts: 'Roboto Condensed', sans-serif;
+}

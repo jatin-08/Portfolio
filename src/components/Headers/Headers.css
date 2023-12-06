@@ -1,0 +1,49 @@
+.logo {
+    height: 5rem;
+    width: 5rem;
+}
+
+/* .logo img {
+    filter: invert();
+} */
+
+.navlist li {
+    position: relative;
+    color: var(--text-lightblue-color);
+    font-family: var(--roboto-condensed-fonts);
+    transition: all 0.3s ease-in-out;
+}
+
+.navlist li::before {
+    content: "";
+    position: absolute;
+    top: 1.5rem;
+    background-color: var(--text-lightblue-color);
+    height: 0.1rem;
+    width: 0%;
+    transition: all 0.5s ease-in-out;
+}
+
+.navlist li:hover::before {
+    background-color: var(--text-yellow-color);
+    width: 80%;
+    transition: all 0.3s ease-in-out;
+}
+
+.navlist li:hover {
+    color: var(--text-yellow-color);
+}
+
+.hireBtn {
+    background-color: #FFFFFF;
+    color: var(--text-yellow-color);
+    font-family: var(--roboto-condensed-fonts);
+    border-radius: 5%;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    outline: none;
+}
+
+.hireBtn:hover {
+    transform: translateY(-10%);
+}
